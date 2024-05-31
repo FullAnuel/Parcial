@@ -1,0 +1,455 @@
+body  {
+      margin: 0;
+      font-family: Arial, sans-serif;
+  }
+
+  .cabecera{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+    z-index: 1200;
+  }
+
+  .cabeceraprincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .logotipo img {
+    height: 70px;
+  }
+
+  .menubotones ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menubotones ul li {
+    display: inline-block;
+    margin-left: 100px;
+  }
+
+  .menubotones ul li a {
+    color: rgb(155, 3, 3);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3 ease;
+  }
+
+  .menubotones ul li a:hover {
+    background-color: rgb(2, 114, 1);
+  }
+
+  .primerasection {
+    background-image: url('../imagen_P02/binary_code_by_xxaries1970xx_dctiiyr-414w-2x.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: blue;
+    padding: 0 0;
+    text-align: center;
+  }
+
+  .cuerpouno {
+    max-width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(17, 17, 17, 0.6);
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: black;
+    color: rgb(155, 3, 3);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3 ease;
+  }
+
+  .btn:hover {
+    background-color: rgb(2, 114, 1);
+    color: white;
+  }
+  
+  .segundasection {
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+  }
+
+  .logo2 img{
+   width: 100%;
+   height: 100%;
+  }
+
+  .tercerasection {
+    background-color: blueviolet;
+    padding: 50px 0;
+    border-radius: 5px;
+    background-image: url('../imagen_P02/aifondo.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .tercerasection h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .tercerasection p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contenedordos {
+    max-width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(44, 43, 43, 0.6);
+  }
+
+  .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+  }
+
+  .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 8px solid #ddf3c1;
+    border-radius: 10px;
+    box-shadow: #333;
+  }
+
+  .columna p {
+   margin-top: 20px;
+   line-height: 20px;
+  }
+
+  .columna a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .columna a:hover {
+    background-color: blue;
+  } 
+
+  .cuartasection {
+    background-color: blueviolet;
+    padding: 50px 0;
+    border-radius: 5px;
+    background-image: url('../imagen_P02/medical.webp');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cuartasection h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(255, 246, 246);
+  }
+
+  .cuartasection p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contenedortres {
+    max-width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(44, 43, 43, 0.6);
+  }
+
+  .columna2 {
+    flex: 1;
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+  }
+
+  .columna2 img {
+    max-width: 100%;
+    height: auto;
+    border: 8px solid #ddf3c1;
+    border-radius: 10px;
+    box-shadow: #333;
+  }
+
+  .columna2 p {
+   margin-top: 20px;
+   line-height: 20px;
+  }
+
+  .columna2 a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .columna2 a:hover {
+    background-color: blue;
+  } 
+
+  .quintasection {
+    background-color: blueviolet;
+    padding: 50px 0;
+    border-radius: 5px;
+    background-image: url('../imagen_P02/astronauta.webp');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .quintasection h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(255, 245, 245);
+  }
+
+  .quintasection p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contenedorcuatro {
+    max-width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(44, 43, 43, 0.6);
+  }
+
+  .columna3 {
+    flex: 1;
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+  }
+
+  .columna3 img {
+    max-width: 100%;
+    height: auto;
+    border: 8px solid #ddf3c1;
+    border-radius: 10px;
+    box-shadow: #333;
+  }
+
+  .columna3 p {
+   margin-top: 20px;
+   line-height: 20px;
+  }
+
+  .columna3 a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .columna3 a:hover {
+    background-color: blue;
+  }
+
+  .sextasection {
+    background-color: black;
+    padding: 50px 0;
+    border-radius: 5px;
+  }
+
+  .contenedorcinco {
+    max-width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 10px;
+  }
+
+  .sextasection h1{
+   text-align: center;
+   font-size: 24px;
+   margin-bottom: 20px;
+   color: white;
+  }
+
+  .sextasection p{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .item {
+    flex: 1 1 25%;
+    border: 1px solid white;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .item img {
+    max-width: 100%;
+    height: 200px;
+  }
+
+  .final {
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+
+  .cajafinal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .menubotones2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menubotones2 ul li {
+    display: inline-block;
+    margin-left: 100px;
+  }
+
+  .menubotones2 ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3 ease;
+  }
+
+  .menubotones2 ul li a:hover {
+    background-color: yellow;
+  }
+
+  .textofinal h1 {
+    margin: 3px;
+  }
+
+  .textofinal h2 {
+    margin: 3px;
+  }
+
+  .columna {
+    overflow: hidden;
+  }
+
+  .columna img {
+    transition: transform 0.3 ease, opacity 0.3 ease;
+  }
+
+  .columna:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+
+  .columna2 {
+    overflow: hidden;
+  }
+
+  .columna2 img {
+    transition: transform 0.3 ease, opacity 0.3 ease;
+  }
+
+  .columna2:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+
+  .columna3 {
+    overflow: hidden;
+  }
+
+  .columna3 img {
+    transition: transform 0.3 ease, opacity 0.3 ease;
+  }
+
+  .columna3:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+
+  .item {
+    overflow: hidden;
+  }
+
+  .item img {
+    transition: transform 0.3 ease, opacity 0.3 ease;
+  }
+
+  .item:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+
+
